@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Die Rolling Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    
+</head>
+<body>
+    <div id="container">
+        <h1>Let's Play</h1>
+        <h2 id = "result"></h2>
+        <div id = "diebox">
+            <div class="box" id="box1">
+                <h2 class = "usr">Player 1</h2>
+                <img id = "imag1" src="images/dice1.png" alt="">
+                <div id="die1">
+                </div>
+            </div>
+            <div class="box" id="box2">
+                <h2 class = "usr">Player 2</h2>
+                <img id = "imag2" src="images/dice2.png" alt="">
+                <div id="die2"></div>
+            </div>
+        </div>
+    </div>
+    <button id = "again" onclick = "fn1()">Play Again</button>
+    <script src="app.js"></script>
+</body>
+</html>
